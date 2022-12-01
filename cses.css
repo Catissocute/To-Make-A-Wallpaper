@@ -2,10 +2,12 @@
     --ble: 0;
     --rde: 0;
     --gre: 0;
-    --calculated: linear-gradient(rgb(var(--rde), 0, 0), rgb( 0, 0, var(--ble)), rgb(0, var(--gre), 0));
+    --final: ;
+    --calculated-l: linear-gradient(rgb(var(--rde), 0, 0), rgb( 0, 0, var(--ble)), rgb(0, var(--gre), 0));
+    --calculated-r: radial-gradient(rgb(var(--rde), 0, 0), rgb( 0, 0, var(--ble)), rgb(0, var(--gre), 0));
 }
 .canvase {
 height: 100px;
 width: 100px;
-background-image: var(--calculated);
+background-image: var(--final);
 }
