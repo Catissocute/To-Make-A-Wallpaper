@@ -5,12 +5,15 @@
     <link href="cses.css" rel="stylesheet">
     </head>
     <body>
-        <div class="canvase" ></div>
+        <div class="canvase" id="canvase"></div>
         <input type="range" id="red" min="0" max="255" value="128" onchange="change()">
         <label for="red">red</label>
         <input type="range" id="green" min="0" max="255" value="128" onchange="change()">
         <label for="green">green</label>
         <input type="range" id="blue" min="0" max="255" value="128" onchange="change()">
         <label for="blue">blue</label>
+        <br>
+        <input type="radio" id="radio-l" name="back"><label>Linear</label>
+        <input type="radio" id="radio-r" name="back"><label>Radical</label>
     </body>
 </html>
