@@ -2,9 +2,19 @@
     --ble: 0;
     --rde: 0;
     --gre: 0;
+    --secr: 0;
+    --secg: 0;
+    --secb: 0;
+    --thir: 0;
+    --thig: 0;
+    --thib: 0; 
     --final: ;
-    --calculated-l: linear-gradient(rgb(var(--rde), 0, 0), rgb( 0, 0, var(--ble)), rgb(0, var(--gre), 0));
-    --calculated-r: radial-gradient(rgb(var(--rde), 0, 0), rgb( 0, 0, var(--ble)), rgb(0, var(--gre), 0));
+
+    --calculated-l: linear-gradient(var(--rde), var(--secr), var(--thir), var(--ble), var(--secb), var(--thib), var(--gre), var(--secg), var(--thig));
+    --calculated-r: radial-gradient(var(--rde), var(--secr), var(--thir), var(--ble), var(--secb), var(--thib), var(--gre), var(--secg), var(--thig));
+    --calculated-r-r: repeating-radial-gradient(var(--rde), var(--secr), var(--thir), var(--ble), var(--secb), var(--thib), var(--gre), var(--secg), var(--thig));
+    --calculated-r-l: repeating-linear-gradient(var(--rde), var(--secr), var(--thir), var(--ble), var(--secb), var(--thib), var(--gre), var(--secg), var(--thig));
+    --calculated-r-c: repeating-conic-gradient(var(--rde), var(--secr), var(--thir), var(--ble), var(--secb), var(--thib), var(--gre), var(--secg), var(--thig));    
 }
 .canvase {
 height: 100px;
