@@ -6,14 +6,29 @@
     </head>
     <body>
         <div class="canvase" id="canvase"></div>
-        <input type="range" id="red" min="0" max="255" value="128" onchange="change()">
+        <input type="color" id="red"  onclick="change()">
         <label for="red">red</label>
-        <input type="range" id="green" min="0" max="255" value="128" onchange="change()">
+        <input type="color" id="green"  onclick="change()">
         <label for="green">green</label>
-        <input type="range" id="blue" min="0" max="255" value="128" onchange="change()">
+        <input type="color" id="blue"  onclick="change()">
         <label for="blue">blue</label>
         <br>
-        <input type="radio" id="radio-l" name="back"><label>Linear</label>
-        <input type="radio" id="radio-r" name="back"><label>Radical</label>
+        <input type="color" id="rew"  onclick="change()">
+        <label for="rew">red</label>
+        <input type="color" id="greew"  onclick="change()">
+        <label for="greew">green</label>
+        <input type="color" id="bluw"  onclick="change()">        
+        <br>
+        <input type="color" id="ree"  onclick="change()">
+        <label for="red">red</label>
+        <input type="color" id="greee"  onclick="change()">
+        <label for="green">green</label>
+        <input type="color" id="blee"  onclick="change()">
+        <br>
+        <input type="radio" id="radio-l" name="back" onclick="change()"><label>Linear</label>
+        <input type="radio" id="radio-r" name="back" onclick="change()"><label>Radical</label>
+        <input type="radio" id="radio-r-l" name="back" onclick="change()"><label>Linear-Repeating</label>
+        <input type="radio" id="radio-r-r" name="back" onclick="change()"><label>Radical-Repeating</label>
+        <input type="radio" id="radio-r-c" name="back" onclick="change()"><label>Radical-Conic</label>
     </body>
 </html>
